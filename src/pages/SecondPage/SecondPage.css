@@ -1,0 +1,10 @@
+.second-page-main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .second-page-main-container {
+    width: 100%;
+  }
+}

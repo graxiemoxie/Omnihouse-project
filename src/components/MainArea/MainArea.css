@@ -1,0 +1,173 @@
+.bold-text {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.price {
+  font-size: 23px;
+}
+
+.image-wrapper {
+  text-decoration: none;
+}
+
+.listing {
+  display: flex;
+  flex-direction: row;
+  background-color: #18121a;
+  padding: 10px;
+  color: #f9f3fa;
+  position: relative;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.underground-img {
+  width: 40px;
+  padding-right: 10px;
+}
+
+.house-image {
+  width: 338px;
+  height: 248px;
+}
+
+.details-wrapper {
+  margin-left: 20px;
+  line-height: 40px;
+  text-align: start;
+}
+
+.list-icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.listing-icon {
+  padding-right: 10px;
+}
+
+.number {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.listing-message-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.listing-address-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.move-in-date {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+  .house-image {
+    width: 330px;
+  }
+  .bold-text {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 21px;
+  }
+
+  .listing-message-icon {
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .house-image {
+    width: 280px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1185px) {
+  .bold-text {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 19px;
+  }
+
+  .listing-message-icon {
+    width: 32px;
+  }
+
+  .details-wrapper {
+    line-height: 39px;
+  }
+
+  .house-image {
+    width: 270px;
+    height: 200px;
+  }
+
+  .listing-address-wrapper {
+    font-size: 12px;
+  }
+
+  .address {
+    font-size: 12px;
+  }
+
+  .move-in-date {
+    font-size: 12px;
+  }
+
+  .small-icon {
+    width: 25px;
+  }
+
+  .listing-message-icon {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .details-wrapper {
+    line-height: 30px;
+  }
+
+  .house-image {
+    width: 220px;
+    height: 171px;
+  }
+
+  .bold-text {
+    font-size: 13px;
+  }
+  .price {
+    font-size: 16px;
+  }
+
+  .underground-img {
+    width: 34px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .listing {
+    flex-direction: column;
+  }
+  .house-image {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .listing {
+    margin: 20px;
+  }
+}
