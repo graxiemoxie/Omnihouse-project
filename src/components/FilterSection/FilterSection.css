@@ -1,7 +1,12 @@
+.filter-section-container {
+  height: 100vh;
+  width: 30%;
+}
+
 .filter-section {
   background: #201b20;
-  height: 100vh;
-  width: 25%;
+  height: 100%;
+  width: 100%;
 }
 
 h3 {
@@ -88,6 +93,7 @@ select {
   font-size: 20px;
   line-height: 23px;
   width: 100%;
+  outline: none;
 }
 
 .find-btn {
@@ -126,7 +132,7 @@ select {
 }
 
 @media screen and (max-width: 1110px) {
-  .filter-section {
+  .filter-section-container {
     width: 30%;
   }
 }
@@ -141,9 +147,11 @@ select {
 }
 
 @media screen and (max-width: 768px) {
+  .filter-section-container {
+    width: 50%;
+  }
   .filter-section {
     position: relative;
-    width: 50%;
   }
 
   h3 {
@@ -174,13 +182,19 @@ select {
 }
 
 @media screen and (max-width: 600px) {
+  .filter-section-container {
+    width: 100vw;
+    height: 50%;
+  }
   .filter-section {
     position: relative;
-    width: 100vw;
-    height: 62vh;
   }
 
   .find-btn {
     padding: 13px 22px;
+  }
+
+  .button-container {
+    padding: 30px;
   }
 }

@@ -27,10 +27,14 @@ class MoreDetailsPage extends React.PureComponent {
           <div className="heading">
             <div className="heading-icons">
               <span>
-                <img src={saveIcon} alt="" />
+                <a href="#">
+                  <img src={saveIcon} alt="" />
+                </a>
               </span>
               <span>
-                <img src={clearIcon} alt="" />
+                <a href="/homepage">
+                  <img src={clearIcon} alt="" />
+                </a>
               </span>
             </div>
           </div>

@@ -6,5 +6,6 @@
 @media screen and (max-width: 600px) {
   .second-page-main-container {
     width: 100%;
+    flex-direction: column;
   }
 }

@@ -171,3 +171,19 @@
     margin: 20px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .listing {
+    margin: 20px 0;
+  }
+  .details-wrapper {
+    line-height: 29px;
+    margin-left: 4px;
+  }
+  .listing-message-icon {
+    width: 22px;
+  }
+  .number {
+    margin-left: 4px;
+  }
+}
