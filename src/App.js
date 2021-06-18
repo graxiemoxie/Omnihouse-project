@@ -12,7 +12,7 @@ function App() {
       <Suspense fallback={<Loader />}>
         <Router>
           <Switch>
-            <Route exact path="/homepage" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/second-page" component={SecondPage} />
           </Switch>
         </Router>
