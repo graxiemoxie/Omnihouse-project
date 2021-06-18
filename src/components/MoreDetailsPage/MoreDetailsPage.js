@@ -32,7 +32,7 @@ class MoreDetailsPage extends React.PureComponent {
                 </a>
               </span>
               <span>
-                <a href="/homepage">
+                <a href="/">
                   <img src={clearIcon} alt="" />
                 </a>
               </span>

@@ -15,7 +15,7 @@ class FilterSection extends React.PureComponent {
             <h3>Find a rental property</h3>
             <div className="input-area">
               <label>Search area</label>
-              <input type="text" placeholder="eg. Oxford or NW3" />
+              <input type="search" placeholder="eg. Oxford or NW3" />
             </div>
             <div className="min-max-option">
               <div className="selection-area">

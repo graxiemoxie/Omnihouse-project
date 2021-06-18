@@ -57,6 +57,7 @@ input {
   line-height: 23px;
   background: transparent;
   border: none;
+  outline: none;
 }
 
 .min-max-option {
