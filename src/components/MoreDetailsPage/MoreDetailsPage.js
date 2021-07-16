@@ -27,7 +27,7 @@ class MoreDetailsPage extends React.PureComponent {
           <div className="heading">
             <div className="heading-icons">
               <span>
-                <a href="#">
+                <a href="#save">
                   <img src={saveIcon} alt="" />
                 </a>
               </span>
